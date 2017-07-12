@@ -10,8 +10,20 @@
 			<arguments>
 			</arguments>
 		</buildCommand>
+		<buildCommand>
+			<name>com.salesforce.ide.builder.online</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
 	</buildSpec>
 	<natures>
 		<nature>com.salesforce.ide.nature.default</nature>
+		<nature>com.salesforce.ide.nature.online</nature>
 	</natures>
+	<variableList>
+		<variable>
+			<name>ANT_HOME</name>
+			<value>file:/C:/Program%20Files/Ant/apache-ant-1.10.1</value>
+		</variable>
+	</variableList>
 </projectDescription>
